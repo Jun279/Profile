@@ -32,6 +32,7 @@ const HobbyText = styled.p`
 
 const ImgContainer = styled.div`
   border: 1px solid #EBEDF8;
+  border-radius: 0 0 1rem 1rem;
   background: #FFF;
   width: 100%;
   height: 30vh;

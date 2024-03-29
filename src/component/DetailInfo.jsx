@@ -55,9 +55,17 @@ const MoreBtn = styled.button`
   border-radius: 5px;
   width: 5vw;
   position: absolute;
-  right: 0;
+  right: 5vw;
   bottom: 0;
   cursor: pointer;
+  font-size: 1.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: 450px) {
+    padding: 0.5vw;
+  }
 `
 
 export default function DetailInfoComponent() {

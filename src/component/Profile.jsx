@@ -15,7 +15,7 @@ const ProfileContainer = styled.div`
   height: 75vh;
 
   @media(max-width: 450px) {
-    height: 25vh;
+    height: 30vh;
   }
 `;
 
