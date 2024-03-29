@@ -1,5 +1,5 @@
 import "./nav.css";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import homeImg from "../assests/PORTFOLIO..svg";
 
 export default function NavBar() {
